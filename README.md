@@ -19,7 +19,3 @@ DB_PASSWORD=
 ubah sesuai database anda
 
 - Jalankan aplikasi `php artisan serve`
-
-  ```shellscript
-  
-  ```
