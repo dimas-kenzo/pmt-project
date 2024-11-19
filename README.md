@@ -6,6 +6,8 @@
 - Lakukan generate key dengan perintah `php artisan key:generate`
 - Install node modules `npm install`
 - Setup database di .env
+- buat user dengan memasukan name, email dan password
+- kemudian login menggunakan email dan password
 
 ```
 DB_CONNECTION=mysql
