@@ -1,23 +1,20 @@
-
-## Installasi Project
-
-- Copy file `.env.example` ,ubah menjadi `.env`
-- Jalankan command `composer install` di terminal
-- Lakukan generate key dengan perintah `php artisan key:generate`
-- Install node modules `npm install`
-- Setup database di .env
-- buat user dengan memasukan name, email dan password
-- kemudian login menggunakan email dan password
-
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=build_of_materials
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-ubah sesuai database anda
-
-- Jalankan aplikasi `php artisan serve`
+- Masuk ke cmd
+- Jalankan peritah ini git clone https://github.com/dimas-kenzo/pmt-project.git
+- Tunggu prosesnya
+- Masuk ke direktori projeknya dengan cara cd pmt-project
+- Ketikan perintah code .
+- Perintah tsb digunakan untuk membuka visual studio code
+- Copy dan paste file .env.example, ubah menjadi .env
+- Buka terminal dengan mengetikan perintah ctrl + j
+- Jalankan perintah composer install di terminal
+- Tunggu prosesnya hingga selesai
+- Lakukan generate key dengan perintah php artisan key:generate
+- Setup database di .env seperti pada video
+- Ubah DB_CONNECTION menjadi mysql
+- Masukan nama database pada DB_DATABASE (nama tersebut bebas, sesuai keinginan kamu)
+- Khusus untuk password masukan password yg kamu buat, jika tidak ada passwordnya kosongkan saja
+- Pada terminal ketikan php artisan migrate
+- Jika keluar  Would you like to create it? (yes/no), pilih yes
+- Tunggu prosesnya selesai, lalu ketika perintah php artisan ser untuk membuka aplikasi web-nya
+- Buat user dengan memasukan name, email dan password
+- Kemudian login menggunakan email dan password
